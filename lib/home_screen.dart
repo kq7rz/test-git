@@ -5,7 +5,7 @@ class HomeScreen extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('hello'),
+        title: Text('hello', style: TextStyle(fontSize: 24)),
         centerTitle: true,
         backgroundColor: Colors.purple,
       ),
